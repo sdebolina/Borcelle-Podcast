@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    background-color:#C6DA83;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:#D6E6FD ;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 70px;
+    padding: 0 8px;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 58vh;
+    background-color: #FFD0D0;
+    color: #fdfdfd;
+    
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    margin: 15px auto;
+    width: 70%;
+   
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('Bg3\ \(2\).jpg');
+}
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: #000000 ;
+    color:#D6E6FD ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+ width: 80vw;
+ cursor: pointer;
+
+}
+.songItem img{
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 10px;
+    
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #FFD0D0;
+    color: #b41351;
+    font-weight: bolder;
+    
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    
+    
+}
+.timestamp{
+    margin: 0 30px;
+    height: 5px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.9s ease-in;
+
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: #C6DA83;
+    }
+  }
